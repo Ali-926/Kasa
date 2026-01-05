@@ -1,8 +1,17 @@
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import AppRouter from "./router/AppRouter";
+import "./styles/main.scss";
+
 function App() {
   return (
-    <div>
-      <h1>Kasa</h1>
-    </div>
+    <>
+      <Header />
+      <main>
+        <AppRouter />
+      </main>
+      <Footer />
+    </>
   );
 }
 
