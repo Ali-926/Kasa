@@ -11,7 +11,7 @@ function Navbar() {
           Accueil
         </NavLink>
         <NavLink to="/about" className="navbar__link">
-          A propos
+          À propos
         </NavLink>
       </nav>
     </header>
