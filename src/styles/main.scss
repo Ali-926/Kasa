@@ -1,8 +1,15 @@
+@use "./components/navbar";
+@use "./components/banner";
+@use "./components/card";
+@use "./pages/home";
+@use "./components/footer";
+
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 main {
   min-height: 80vh;
+  background-color: #fff;
 }

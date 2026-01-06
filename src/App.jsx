@@ -1,4 +1,4 @@
-import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import AppRouter from "./router/AppRouter";
 import "./styles/main.scss";
@@ -6,7 +6,7 @@ import "./styles/main.scss";
 function App() {
   return (
     <>
-      <Header />
+      <Navbar />
       <main>
         <AppRouter />
       </main>

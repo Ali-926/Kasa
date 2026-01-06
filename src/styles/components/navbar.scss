@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+  background-color: #fff;
+
+  &__logo {
+    height: 68px;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 50px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+
+    &.active {
+      text-decoration: underline;
+    }
+  }
+}
