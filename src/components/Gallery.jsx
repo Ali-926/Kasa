@@ -8,16 +8,16 @@ function Gallery({ pictures }) {
   const prev = () => setIndex((index - 1 + length) % length);
 
   return (
-    <div className="gallery">
+    <div className="carousel">
       {length > 1 && (
         <>
-          <button className="gallery__prev" onClick={prev}>
+          <button className="carousel__prev" onClick={prev}>
             ‹
           </button>
-          <button className="gallery__next" onClick={next}>
+          <button className="carousel__next" onClick={next}>
             ›
           </button>
-          <span className="gallery__count">
+          <span className="carousel__count">
             {index + 1}/{length}
           </span>
         </>

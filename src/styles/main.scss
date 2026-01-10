@@ -3,6 +3,12 @@
 @use "./components/card";
 @use "./pages/home";
 @use "./components/footer";
+@use "./pages/logement";
+@use "./components/gallery";
+@use "./components/tags";
+@use "./components/rating";
+@use "./components/host";
+@use "./components/collapse";
 
 body {
   margin: 0;
