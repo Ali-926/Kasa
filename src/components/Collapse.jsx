@@ -5,9 +5,18 @@ function Collapse({ title, children }) {
 
   return (
     <div className="collapse">
-      <button className="collapse__header" onClick={() => setOpen(!open)}>
-        <span>{title}</span>
-        <span className={open ? "rotate" : ""}>⌃</span>
+      <button
+        className="collapse__header"
+        onClick={() => setOpen(!open)}
+        aria-expanded={open}
+      >
+        <span className="collapse__title">{title}</span>
+
+        <i
+          className={`fa-solid fa-chevron-up collapse__icon ${
+            open ? "collapse__icon--open" : ""
+          }`}
+        ></i>
       </button>
 
       {open && <div className="collapse__content">{children}</div>}

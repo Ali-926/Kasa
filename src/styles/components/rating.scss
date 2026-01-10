@@ -1,11 +1,13 @@
 .rating {
-  font-size: 24px;
+  display: flex;
+  gap: 10px;
 
-  span {
+  &__star {
+    font-size: 24px;
     color: #e3e3e3;
   }
 
-  .active {
+  &__star--active {
     color: #ff6060;
   }
 }
