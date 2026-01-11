@@ -4,7 +4,7 @@ function Collapse({ title, children }) {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="collapse">
+    <div className={`collapse ${open ? "collapse--open" : ""}`}>
       <button
         className="collapse__header"
         onClick={() => setOpen(!open)}
@@ -19,7 +19,11 @@ function Collapse({ title, children }) {
         ></i>
       </button>
 
-      {open && <div className="collapse__content">{children}</div>}
+      <div
+        className={`collapse__content ${open ? "collapse__content--open" : ""}`}
+      >
+        {children}
+      </div>
     </div>
   );
 }

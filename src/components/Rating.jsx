@@ -5,7 +5,9 @@ function Rating({ rating }) {
         <i
           key={star}
           className={`fa-star rating__star ${
-            star <= rating ? "fa-solid rating__star--active" : "fa-regular"
+            star <= rating
+              ? "fa-solid rating__star--active"
+              : "fa-solid fa-regular"
           }`}
         ></i>
       ))}

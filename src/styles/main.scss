@@ -9,6 +9,7 @@
 @use "./components/rating";
 @use "./components/host";
 @use "./components/collapse";
+@use "./pages/about";
 
 body {
   margin: 0;
@@ -16,7 +17,7 @@ body {
 }
 
 main {
-  margin: 0 100px;
+  padding: 0 100px;
   min-height: 80vh;
   background-color: #fff;
 }
