@@ -11,3 +11,12 @@
     color: #ff6060;
   }
 }
+@media (max-width: 768px) {
+  .rating {
+    gap: 5px;
+
+    &__star {
+      font-size: 16px;
+    }
+  }
+}

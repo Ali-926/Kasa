@@ -33,3 +33,29 @@
     margin-top: 30px;
   }
 }
+@media (max-width: 768px) {
+  .logement {
+    padding: 0;
+    margin: 0;
+
+    h1 {
+      font-size: 24px;
+    }
+
+    &__header {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    &__host {
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__collapses {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}

@@ -22,3 +22,8 @@ main {
   min-height: 80vh;
   background-color: #fff;
 }
+@media (max-width: 768px) {
+  main {
+    padding: 0 20px;
+  }
+}

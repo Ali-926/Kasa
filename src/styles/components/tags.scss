@@ -14,3 +14,13 @@
     font-weight: 500;
   }
 }
+@media (max-width: 768px) {
+  .tags {
+    flex-wrap: wrap;
+
+    li {
+      font-size: 12px;
+      padding: 4px 10px;
+    }
+  }
+}

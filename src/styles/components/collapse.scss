@@ -63,3 +63,16 @@
     margin: 0;
   }
 }
+@media (max-width: 768px) {
+  .collapse {
+    &__header {
+      font-size: 13px;
+      padding: 10px 12px;
+    }
+
+    &__content {
+      font-size: 12px;
+      padding: 12px;
+    }
+  }
+}
