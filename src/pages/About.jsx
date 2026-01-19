@@ -16,7 +16,7 @@ const aboutData = [
   {
     title: "Service",
     content:
-      "La qualité du service est au cœur de notre engagement chez Kasa. Nou veillons à ce que chaque interaction, que ce soit avec nos hôtes ou nos locataires, soit empreinte de respect et de bienveillance.",
+      "La qualité du service est au cœur de notre engagement chez Kasa. Nous veillons à ce que chaque interaction, que ce soit avec nos hôtes ou nos locataires, soit empreinte de respect et de bienveillance.",
   },
   {
     title: "Sécurité",
