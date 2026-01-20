@@ -30,7 +30,7 @@
   }
 
   &__icon--open {
-    transform: rotate(180deg);
+    transform: rotate(-180deg);
   }
 
   /* ===== CONTENT ===== */
@@ -63,6 +63,10 @@
   &__content ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+  }
+
+  &__content p {
     margin: 0;
   }
 }

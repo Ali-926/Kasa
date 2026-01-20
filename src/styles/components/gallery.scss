@@ -22,17 +22,17 @@
       0 0 1px black,
       0 0 1px black,
       0 0 1px black;
-    font-size: 80px;
+    font-size: 120px;
     cursor: pointer;
     z-index: 1;
   }
 
   &__prev {
-    left: 25px;
+    left: 15px;
   }
 
   &__next {
-    right: 25px;
+    right: 15px;
   }
 
   &__count {
@@ -55,6 +55,12 @@
     &__prev,
     &__next {
       font-size: 40px;
+    }
+    &__prev {
+      left: 5px;
+    }
+    &__next {
+      right: 5px;
     }
 
     &__count {
